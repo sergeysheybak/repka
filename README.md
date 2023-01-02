@@ -1,3 +1,3 @@
 # repka
  
-НЄ, це СЕРГІЙ ПІДАРАС
+no no no no no u are gay
