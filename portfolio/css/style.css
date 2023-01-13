@@ -1,0 +1,229 @@
+* {box-sizing: border-box;}
+* img{display: block;}
+ol,ul,p,h1,h2,h3,h4,h5,li,a {margin: 0; padding: 0; list-style: none;
+text-decoration: none;}
+
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ECECEC;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+}
+.header-navigation-list {
+    display: flex;
+    align-items: center;
+}
+.header-info {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.header-list:not(:last-child) {
+margin-right: 50px;
+}
+.header-names{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+.header-logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-logo-one {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.header-logo-two {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+.header-info-items {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+padding-top: 32px;
+padding-bottom: 32px;
+
+color: #757575;
+}
+.header-info-items:hover {
+    color: #2196F3;
+}
+.header-names:hover {
+    color: #2196F3;
+}
+/* portfolio */
+.portfolio {
+    background: #ffffff;
+}
+.portfolio-cont {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.portfolio-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding : 6px 22px ;
+    display: block;
+}
+.portfolio-photo {
+    margin-bottom: 20px;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.portfolio-items:not(:last-child){
+    margin-right: 10px;
+}
+.portfolio-items {
+    background: #F5F4FA;
+    background: #F5F4FA;
+    border-radius: 4px;
+
+}
+.portfolio-photo-list {
+display: flex;
+flex-wrap: wrap;
+margin-left: -30px;
+margin-bottom: -30px;
+}
+.portfolio-photo-items {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    padding-bottom: 20px;
+    width: 370px;
+}
+.portfolio-photo-text-one {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+margin-left: 15px;
+}
+.portfolio-photo-twxt-two {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+margin-left: 15px;
+}
+.portfolio-link:hover {
+    background: #2196F3;
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+
+
+/* footer */
+.footer {
+    background: #2F303A;
+}
+.footer-conteiner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-logo {
+    color: white;
+}
+.footer-item {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-nav > li:not(:last-child) {
+    margin-bottom: 9px;
+}
+.footer-wo {
+    margin-bottom: 20px;
+    display: block;
+}
+.footer-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover {
+    color: #2196F3;
+}

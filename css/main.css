@@ -1,5 +1,5 @@
 * {box-sizing: border-box;}
-* {font-family: Roboto;}
+* img{display: block;}
 ol,ul,p,h1,h2,h3,h4,h5,li,a {margin: 0; padding: 0; list-style: none;
 text-decoration: none;}
 
@@ -102,6 +102,7 @@ a:not(first-child):hover {
 .hero-pb {
     padding-top: 94px;
     padding-bottom: 48px;
+    background-color: aqua;
 }
 .hero-title {
   display: block;
@@ -190,6 +191,7 @@ margin-bottom: 50px;
 .picture {
     padding-top: 48px;
     padding-bottom: 94px;
+    background-color: #2196F3;
 }
 /* comand */
 .comand {
@@ -216,6 +218,8 @@ margin-bottom: 50px;
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .comand-text-one {
     font-family: 'Roboto';
@@ -226,7 +230,6 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-top: 30px;
 margin-bottom: 10px;
 }
 .comand-text-two {
@@ -240,6 +243,10 @@ letter-spacing: 0.03em;
 color: #757575;
 padding-bottom: 30px;
 }
+.comand-img {
+    padding-bottom: 30px;
+}
+
 /* footer */
 .footer {
     background: #2F303A;
