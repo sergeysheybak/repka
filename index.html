@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -21,25 +22,47 @@
                 <span class="header-logo-one">Web</span><span class="header-logo-two">Studio</span>
             </a>
             <ul class="header-navigation-list ">
-                <li class="header-item"><a class="header-names" href="">Студія</a></li>
-                <li class="header-item"><a class="header-names" href="">Портфоліо</a></li>
+                <li class="header-item header-studio"><a class="header-names header-names-studio" href="">Студія</a></li>
+                <li class="header-item"><a class="header-names" target="_blank" href="/portfolio/index.html">Портфоліо</a></li>
                 <li class="header-item"><a class="header-names" href="">Контакти</a></li>
             </ul>
         </nav>
         <ul class="header-info ">
             <li class="header-list "> <a class="header-info-items" href="">info@devstudio.com</a> </li>
             <li class="header-list "> <a class="header-info-items" href="tel:+380991935438">+380991935438</a> </li>
-        </ul>   
+        </ul>  
     </div>
 </header>
 <main class="main">
     <div class="container ">
         <section class="hero  ">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-btn">Заказать услугу</button>
+            <button data-modal-open class="hero-btn" >Заказать услугу</button>
         </section>
         <section class=" hero-pb">
             <div class="conteiner">
+                <ul class="benefist-img-list">
+                    <li class="benefist-img-items ">
+                        <svg class="sprite-suka" display="none">
+                            <use href="/img/sprite.svg#antenna 1">
+                        </svg>
+                    </li>
+                    <li class="benefist-img-items ">
+                        <svg class="sprite-suka" display="none">
+                            <use href="/img/sprite.svg#clock 1">
+                        </svg>
+                    </li>
+                    <li class="benefist-img-items ">
+                        <svg class="sprite-suka" display="none">
+                            <use href="/img/sprite.svg#diagram 1">
+                        </svg>
+                    </li>
+                    <li class="benefist-img-items ">
+                        <svg class="sprite-suka" display="none">
+                            <use href="/img/sprite.svg#astronaut 1">
+                        </svg>
+                    </li>
+                </ul>
                 <ul class="benefits">
                     <li class="benefists-list">
                         <p class="benefists-items-top">Внимание к деталям</p>
@@ -102,7 +125,22 @@
                     class="comand-img">
                     <p class="comand-text-one">Игорь Демьяненко</p>
                     <p class="comand-text-two">Product Designe</p>
+                    <p class="comand-text-soket">
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (2)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (3)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (4)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (5)">
+                            </svg></a>
+                    </p>
                 </li>
+                
                 <li class="comand-items">
                     <img 
                     src="/img/img (4).jpg"  
@@ -112,16 +150,44 @@
                     class="comand-img">
                     <p class="comand-text-one">Ольга Репина</p>
                     <p class="comand-text-two">Frontend Developer</p>
+                    <p class="comand-text-soket">
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (2)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (3)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (4)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (5)">
+                            </svg></a>
+                    </p>
                 </li>
-                <li class="comand-items">
+                <li class="comand-items"> 
                     <img 
-                    src="img/img (5).jpg" 
+                    src="img/img (5).jpg" Hello
                     alt=""
                     width="270"
                     height="260"
                     class="comand-img">
                     <p class="comand-text-one">Николай Тарасов</p>
                     <p class="comand-text-two">Marketing</p>
+                    <p class="comand-text-soket">
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (2)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (3)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (4)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (5)">
+                            </svg></a>
+                    </p>
                 </li>
                 <li class="comand-items">
                     <img 
@@ -132,14 +198,77 @@
                     class="comand-img">
                     <p class="comand-text-one">Михаил Ермаков</p>
                     <p class="comand-text-two">UI Designer</p>
-                </li>
+                    <p class="comand-text-soket">
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (2)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (3)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (4)">
+                            </svg></a>
+                        <a href="" class="soket-whore"><svg class="soket">
+                                <use href="/img/sprite3.svg#Ellipse (5)">
+                            </svg></a>
+                    </p>
             </ul>
         </section>
     </div>
+    <section class="clients">
+        <div class="conteiner">
+            <h2 class="clients-title">Постоянные клиенты</h2>
+            <ul class="clients-list">
+                <li class="clients-item">
+                    <a href="" class="client-soket">
+                        <svg class="clients-soket-item">
+                            <use href="/img/symbol-defs.svg#icon-Client-1">
+                        </svg>
+                    </a>
+                </li>
+                <li class="clients-item">
+                    <a href="" class="client-soket">
+                        <svg class="clients-soket-item">
+                            <use href="/img/symbol-defs.svg#icon-Client-2">
+                        </svg>
+                    </a>
+                </li>
+                <li class="clients-item">
+                    <a href="" class="client-soket">
+                        <svg class="clients-soket-item">
+                            <use href="/img/symbol-defs.svg#icon-Client-3">
+                        </svg>
+                    </a>
+                </li>
+                <li class="clients-item">
+                    <a href="" class="client-soket">
+                        <svg class="clients-soket-item">
+                            <use href="/img/symbol-defs.svg#icon-Client-4">
+                        </svg>
+                    </a>
+                </li>
+                <li class="clients-item">
+                    <a href="" class="client-soket">
+                        <svg class="clients-soket-item">
+                            <use href="/img/symbol-defs.svg#icon-Client-5">
+                        </svg>
+                    </a>
+                </li>
+                <li class="clients-item">
+                    <a href="" class="client-soket">
+                        <svg class="clients-soket-item">
+                            <use href="/img/symbol-defs.svg#icon-Client-6">
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
 </main>
 <footer class="footer">
     <address class="footer-conteiner "> 
-        <div class="conteiner">
+        <div class="conteiner pidors">
+            <div class="bb">
             <a href="" class="footer-wo ">
                 <span class="header-logo-one">Web</span><span class="header-logo-two footer-logo">Studio</span>
             </a>
@@ -149,8 +278,72 @@
                 <li class="header-list "> <a class="header-info-items" href="tel:+380991935438">+380991935438</a> </li>
             </ul>
         </div>
+        <section class="toto">
+            <p class="toto-text-two">присоединяйтесь</p>
+                        <p class="comand-text-soket">
+                            <a href="" class="soket-whore"><svg class="soket time">
+                                    <use href="/img/sprite3.svg#Ellipse (2)">
+                                </svg></a>
+                            <a href="" class="soket-whore"><svg class="soket time">
+                                    <use href="/img/sprite3.svg#Ellipse (3)">
+                                </svg></a>
+                            <a href="" class="soket-whore"><svg class="soket time">
+                                    <use href="/img/sprite3.svg#Ellipse (4)">
+                                </svg></a>
+                            <a href="" class="soket-whore"><svg class="soket time">
+                                    <use href="/img/sprite3.svg#Ellipse (5)">
+                                </svg></a>
+                        </p>
+        </section>
+        <form action="#" class="footer-form">
+            <label for="emailsubscribe" class="footer-label">Подпишитесь на рассылку</label>
+            <div class="footer-form-cont">  
+                <input type="email" name="emailsubscribe" id="emailsubscribe" class="footer-input" placeholder="E-mail">
+                <button class="hero-btn footer-btn">Подписаться <svg class="footer-btn-svg"><use href='/img/symbol-defs.svg#icon-send'></svg></button>
+            </div>
+        </form>
+    </div> 
     </address>
-
 </footer>
+<div data-modal class="togglee is-hidden ">
+    <button data-modal-close class="close">
+        <svg class="symbol-close" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg ">
+        <circle cx="15" cy="15" r="15" fill="white"/>
+        <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1"/>
+        <path d="M21 10.1079L19.8921 9L15.5 13.3921L11.1079 9L10 10.1079L14.3921 14.5L10 18.8921L11.1079 20L15.5 15.6079L19.8921 20L21 18.8921L16.6079 14.5L21 10.1079Z" fill="black"/>
+        </svg>
+    </button> 
+   
+    <form action="" method="post" class="modal-form">
+        <p class="modal-contents">Оставьте свои данные, мы вам перезвоним</p>
+        
+        <div class="modal-number-aria">
+            <label for="name" class="label-names ">Имя</label>
+            <input type="text" id="name" class="namefield " name="name" autofocus />
+            <svg class="modal-post-svg"><use href="/img/symbol-defs.svg#icon-user"></svg>
+        </div>
+        <div class="modal-number-aria">
+            <label for="telephon" class="label-names">Телефон</label>
+            <input type="tel" id="telephon" class="namefield " name="telephon" tabindex="0">
+            <svg class="modal-post-svg"><use href='/img/symbol-defs.svg#icon-phone'></svg>
+        </div>
+        <div class="modal-number-aria">
+            <label for="email" class="label-names">Почта</label>
+            <input type="email" id="email" class="namefield " name="email" tabindex="0">
+            <svg class="modal-post-svg"><use href='/img/symbol-defs.svg#icon-envelope'></svg>
+        </div>
+        <label for="comments" class="label-names">Коментарий</label>
+        <textarea name="" id="comments" class="coments-fff" placeholder="Ввелите текст"></textarea>
+        <input type="checkbox" name="conditions_contract" id="conditions_contract" class="cqwe visual-hidden ">
+        <label for="conditions_contract" class="modal-label-check">
+            <span class="modal-form-span">
+                <svg class="modal-form-svg"><use href='/img/symbol-defs.svg#icon-check'></svg>
+            </span>Соглашаюсь с рассылкой и принимаю  
+            <a href="" class="ssss">Условия договора</a>
+        </label>
+        <button class="send">Отправить</button>
+    </form>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+* img{display: block;}
+ol,ul,p,h1,h2,h3,h4,h5,li,a {margin: 0; padding: 0; list-style: none;
+text-decoration: none;}
+
+.pidor {
+background-image: url(https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg);
+background-repeat: no-repeat;
+height: 98px;
+width: 100px;
+display: inline-block;
+margin-right: 40px;
+transition: all 1s ease-out;
+}
+.facebook {
+background-position: left top;
+}
+.twitter {
+background-position: -100px top ;
+}
+.youtube {
+background-position: -200px top;
+}
+.instagram {
+background-position: -300px top;
+}
+.linkedin {
+background-position: -400px top;
+}
+.tumblr {
+background-position: -500px top;
+}
+.google {
+ background-position: -600px top ; 
+}
+a:hover {background-position-y: bottom;}

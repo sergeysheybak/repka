@@ -116,6 +116,38 @@ padding-bottom: 94px;
 }
 .portfolio-photo {
     margin-bottom: 20px;
+    max-width: inherit;
+    max-height: inherit;
+}
+.portfolio-position {
+    max-width: 370px;
+    max-height: 294px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.pos-txt {
+    padding: 63px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translatey(100%);
+    transition: transform 250ms ease;
+    
+}
+.portfolio-position:hover .pos-txt {
+    transform: translatex(0);
+
 }
 
 .portfolio-list {
@@ -182,9 +214,6 @@ margin-left: 15px;
     border-radius: 4px;
 }
 
-
-
-
 /* footer */
 .footer {
     background: #2F303A;
@@ -192,6 +221,7 @@ margin-left: 15px;
 .footer-conteiner {
     padding-top: 60px;
     padding-bottom: 60px;
+  
 }
 .footer-logo {
     color: white;
@@ -212,18 +242,46 @@ color: #FFFFFF;
     margin-bottom: 20px;
     display: block;
 }
-.footer-link {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+.footer-vie {
+    display: flex;
 }
-.footer-link:hover {
-    color: #2196F3;
+.toto-text-two {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+display: inline-block;
+color: #FFFFFF;
+margin-bottom: 20px;
+
+}
+.time {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.pidors {
+    display: flex;
+}
+.bb {margin-right: 30px;}
+
+.comand-text-soket {
+    display: flex;
+}
+.soket {
+    display: block;
+width: 44px;
+height: 44px;
+fill: #AFB1B8;
+}
+.soket-whore:not(:last-child) {
+    margin-right: 10px;
+}
+.soket:hover {
+    fill:#ffffff;
+    border-radius: 50%; 
+    border-color: #2196F3;
+    background-color: #2196F3;
 }
